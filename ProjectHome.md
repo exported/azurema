@@ -1,0 +1,3 @@
+Current malware analysis approaches reside in the guest OS or emulate part of its underlying hardware, which often leaves them vulnerable to detection and attack by modern malware. This project presents a prototype implementation of an alternative, external approach to malware analysis that is based on hardware virtualization extensions.
+
+The resulting proof-of-concept malware analyzer, called Azure, can be used as a basis for creating models of detection and methods of recovery against modern malware. Azure was implemented using KVM, an open source virtualization solution for Linux.
